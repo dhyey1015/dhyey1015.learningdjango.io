@@ -23,4 +23,27 @@ elif name == "xyz":
 else:
     print("hey anonymous")
     
+#more elif-------------------------------------------------------------
+    
+volume = 57
+
+if volume < 20:
+    print("Its equivalent to quiet.")
+
+elif volume < 40:
+    print("Its nice for backgroung music.")
+    
+elif volume < 60:
+    print("Perfect! i can hear all the details.") 
+
+elif volume < 80:
+    print("Nice for parties")
+    
+elif 80<= volume < 100:
+    print("A bit loud")
+    
+else:
+    print("My ears are hurting :(")
+    
+    
     
